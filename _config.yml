@@ -4,11 +4,11 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Starting Out
+tagline:             Messing With Jekyll
+url:                 http://dshoemaker.github.io
 paginate:            1
-baseurl:             "dshoemaker.github.io/"
+baseurl:             ""
 
 # Assets
 #
@@ -19,11 +19,11 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Drew Shoemaker
+  url:               http://dshoemaker.github.io
+  email:             d.shoemaker19@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/dshoemaker/dshoemaker.github.io
