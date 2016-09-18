@@ -1,29 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink:        pretty
+relative_permalinks: true
 
 # Setup
-title:               Starting Out
-tagline:             Messing With Jekyll
-url:                 http://dshoemaker.github.io
-paginate:            1
-baseurl:             ""
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://dshoemaker.github.io
+baseurl:          /
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
 author:
-  name:              Drew Shoemaker
-  url:               http://dshoemaker.github.io
-  email:             d.shoemaker19@gmail.com
+  name:           'Drew Shoemaker'
+  url:            http://dshoemaker.github.io
+
+paginate:         5
 
 # Custom vars
-version:             2.0.0
+version:          2.1.0
+
 github:
-  repo:              https://github.com/dshoemaker/dshoemaker.github.io
+  repo:           https://github.com/dshoemaker/dshoemaker.github.io
